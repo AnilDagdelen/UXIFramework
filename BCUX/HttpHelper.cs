@@ -13,8 +13,8 @@ namespace WindowsFormsApp1
     { 
         public static async Task<string> Post(string myParam)
         {
-            string ApiKey = "NNRIJXJY-GEPTVIVC-X3MR1NKM-KNYEXTHB";
-            string ApiSecret = "ef012e2cafc5eae95823db96d0b5131d3d2ce71189fb2731cb43ed5fdb695c4699e5ab0555ab56635186dc24bcc34c4c7180391575a02b6162d0bef5a734665d";
+            string ApiKey = "";
+            string ApiSecret = "";
             myParam = "command="+ myParam+"&nonce=" + DateTime.Now.Ticks;
             using (var client = new HttpClient())
             {
